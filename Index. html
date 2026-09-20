@@ -1,0 +1,163 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vibes</title>  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f4f6f8;
+      color: #111;
+    }
+
+    .app {
+      max-width: 500px;
+      margin: auto;
+      min-height: 100vh;
+      background: white;
+      padding-bottom: 75px;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 18px;
+      border-bottom: 1px solid #eee;
+    }
+
+    header h1 {
+      font-size: 28px;
+    }
+
+    .welcome {
+      padding: 18px;
+    }
+
+    .welcome h2 {
+      margin-bottom: 6px;
+    }
+
+    .post {
+      padding: 18px;
+      border-top: 8px solid #f4f6f8;
+    }
+
+    .user {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 15px;
+    }
+
+    .avatar {
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      background: #111;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+    }
+
+    .post h3 {
+      margin-bottom: 8px;
+    }
+
+    .post p {
+      line-height: 1.5;
+      color: #444;
+    }
+
+    .actions {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 18px;
+    }
+
+    .actions button {
+      border: none;
+      background: none;
+      font-size: 14px;
+      padding: 8px;
+    }
+
+    nav {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      max-width: 500px;
+      margin: auto;
+      background: white;
+      border-top: 1px solid #ddd;
+      display: flex;
+      justify-content: space-around;
+      padding: 10px 5px;
+    }
+
+    nav button {
+      border: none;
+      background: none;
+      font-size: 13px;
+    }
+
+    nav span {
+      display: block;
+      font-size: 20px;
+      margin-bottom: 3px;
+    }
+  </style></head><body>  <div class="app"><header>
+  <h1>Vibes</h1>
+  <span>🔔</span>
+</header>
+
+<section class="welcome">
+  <h2>What's happening?</h2>
+  <p>Discover news, trends and conversations.</p>
+</section>
+
+<article class="post">
+
+  <div class="user">
+    <div class="avatar">V</div>
+
+    <div>
+      <strong>Vibes News</strong>
+      <br>
+      <small>Just now</small>
+    </div>
+  </div>
+
+  <h3>Welcome to Vibes 🎉</h3>
+
+  <p>
+    Your daily place for news, trending stories,
+    conversations and everything happening around you.
+  </p>
+
+  <div class="actions">
+    <button>❤️ Like</button>
+    <button>💬 Comment</button>
+    <button>↗️ Share</button>
+  </div>
+
+</article>
+
+<nav>
+  <button><span>🏠</span>Home</button>
+  <button><span>🔎</span>Discover</button>
+  <button><span>➕</span>Create</button>
+  <button><span>🔔</span>Alerts</button>
+  <button><span>👤</span>Profile</button>
+</nav>
+
+  </div></body>
+</html>
