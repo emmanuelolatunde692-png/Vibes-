@@ -4,9 +4,72 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Vibes</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f6f8;
+    }
+
+    header {
+      background: #111827;
+      color: white;
+      padding: 18px;
+      text-align: center;
+      font-size: 26px;
+      font-weight: bold;
+    }
+
+    .welcome {
+      padding: 20px;
+      text-align: center;
+    }
+
+    .welcome h1 {
+      margin-bottom: 8px;
+    }
+
+    .news {
+      background: white;
+      margin: 12px;
+      padding: 16px;
+      border-radius: 12px;
+    }
+
+    .news h2 {
+      margin-top: 0;
+    }
+
+    button {
+      background: #111827;
+      color: white;
+      border: none;
+      padding: 10px 18px;
+      border-radius: 8px;
+    }
+  </style>
 </head>
+
 <body>
-  <h1>Vibes</h1>
-  <p>Your daily news, your way.</p>
+
+  <header>VIBES</header>
+
+  <div class="welcome">
+    <h1>Welcome to Vibes</h1>
+    <p>Your daily news, your way.</p>
+  </div>
+
+  <div class="news">
+    <h2>📰 Today's News</h2>
+    <p>Discover what's happening around you and around the world.</p>
+    <button>Read More</button>
+  </div>
+
+  <div class="news">
+    <h2>🔥 Trending Vibes</h2>
+    <p>See what people are talking about today.</p>
+    <button>Explore</button>
+  </div>
+
 </body>
 </html>
